@@ -1,0 +1,6 @@
+startup_message off 
+vbell off
+term xterm-256color
+hardstatus alwayslastline
+hardstatus string "%{= kw} [ %H ] [%=%{= kw}%-Lw%{= wk} %n%f %t%u %{-}%+Lw%=] [ %Y-%m-%d %c ]"
+autodetach off
